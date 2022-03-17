@@ -30,12 +30,12 @@ description: >
 tagline: 기술블로그 & 소소한 일상
 
 # A list of keywords for your blog
-keywords: [js, react, html(ES6), git]
+keywords: [JavaScript(es6), React, HTML, Git]
 
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
 # It also used by the `jekyll-seo-tag` plugin.
-logo: /assets/img/character.jpeg
+# logo: /assets/img/character.jpeg
 
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
@@ -51,30 +51,34 @@ menu:
     url: /about/
   - title: Posts
     url: /posts/
-  - title: Example1
-    url: /example1/
-  - title: Example2
-    url: /example2/
-  - title: Subcat
-    url: /subcat/
+  - title: Dev.log
+    url: /dev/
     submenu:
-      - title: Test1
-        url: /test1/
-      - title: Test2
-        url: /test2/
+      - title: React.js
+      - url: /react/
+      - title: Node.js
+      - url: /node/
+      - title: Features
+      - url: /features/
+      - title: Error Cases
+      - url: /errorcases/
+  - title: Thought.log
+    url: /thought/
+  - title: Life.log
+    url: /life/
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
 legal:
-  - title: LICENSE
-    url: /LICENSE/
-  - title: NOTICE
-    url: /NOTICE/
-  - title: CHANGELOG
-    url: /CHANGELOG/
+  # - title: LICENSE
+  #   url: /LICENSE/
+  # - title: NOTICE
+  #   url: /NOTICE/
+  # - title: CHANGELOG
+  #   url: /CHANGELOG/
 
 # This text will appear in a `<small>` tag in the footer of every page.
-copyright: © 2021. All rights reserved.
+copyright: © 2022. All rights reserved.
 
 # Format of the permalinks
 permalink: /:categories/:year-:month-:day-:title/
@@ -95,7 +99,7 @@ remote_theme: hydecorp/hydejack@v9.1.5
 # ----------------------------------------------------------------------------------------
 
 # Sidebar image and theme color of the site.
-accent_image: /assets/img/sidebar-bg.jpg
+accent_image: /assets/me/me-bg.jpg
 accent_color: rgb(79,177,186)
 
 # This is used for the `theme-color` meta tag,
@@ -151,16 +155,19 @@ defaults:
   # `jekyll-seo-tag` will mark collection outputs as `BlogPosting`,
   # but we want them to be `WebPage`s:
   - scope:
+      path: ''
       type: projects
     values:
       seo:
         type: WebPage
   - scope:
+      path: ''
       type: featured_categories
     values:
       seo:
         type: WebPage
   - scope:
+      path: ''
       type: featured_tags
     values:
       seo:

@@ -3,14 +3,15 @@
 layout: list
 
 # The title of the tag's page.
-title: Example1
+title: Thought.log
 
 # The name of the tag, used in a post's front matter (e.g. tags: [<slug>]).
-slug: example1
-
+slug: Thought.log
+menu: true
+submenu: true
 # (Optional) Write a short (~150 characters) description of this featured tag.
 description: >
-  메뉴1 예시
+  회고 및 개인적인 생각 등등
 
 # (Optional) You can disable grouping posts by date.
 # no_groups: true
@@ -19,3 +20,5 @@ description: >
 # DON'T USE THIS SETTING IN YOUR CATEGORIES!
 sitemap: false
 ---
+
+# Thought.log
