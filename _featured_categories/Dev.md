@@ -25,11 +25,13 @@ sitemap: false
 
 ## Categories
 
+- [JavaScript]{:.heading.flip-title}
 - [React]{:.heading.flip-title}
 - [Node]{:.heading.flip-title}
 - [Features]{:.heading.flip-title}
 - [Error_Cases]{:.heading.flip-title}
 
+[javascript]: /javascript/
 [react]: /react/
 [node]: /node/
 [features]: /features/

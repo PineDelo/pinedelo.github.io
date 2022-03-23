@@ -1,14 +1,14 @@
 ---
 layout: list
 category: dev
-bigtitle: React
-slug: React
+bigtitle: JavaScript
+slug: JavaScript
 description: >
-  React Category
+  JavaScript Category
 
 related_posts:
   -
 list: true
 # order => 리스트 순서
-order: 2
+order: 1
 ---

@@ -54,6 +54,8 @@ menu:
   - title: Dev.log
     url: /dev/
     submenu:
+      - title: JavaScript
+      - url: /javascript/
       - title: React.js
       - url: /react/
       - title: Node.js
