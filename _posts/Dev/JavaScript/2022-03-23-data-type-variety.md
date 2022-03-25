@@ -4,7 +4,7 @@ title: 데이터 타입의 종류
 subtitle: Variety of data type
 # tags: 태그
 description: >
-  Info by core javascript.
+  코어자바스크립트를 참조하여 작성한 글입니다.
 sitemap: false
 hide_last_modified: false
 categories:
