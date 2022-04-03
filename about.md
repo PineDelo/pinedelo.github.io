@@ -16,7 +16,7 @@ hide_description: true
 
 ## Channel.
 
-**Portfolio**: [notion]
+**Portfolio**: [notion] <br>
 **Github**: [github]
 
 Please check my [Resume PDF](/assets/박태준.pdf)

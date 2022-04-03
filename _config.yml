@@ -24,7 +24,7 @@ title: PineDelo GitBlog
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description: >
-  멋쟁이 사자처럼 함께 따라하면서 배우는 GitBlog
+  디테일을 만드는 개발자, 박태준입니다.
 
 # A shorter description for the sidebar.
 tagline: 기술블로그 & 소소한 일상
@@ -430,3 +430,15 @@ jekyll_compose:
       links:
         - title: Project Link
           url: https://example.com
+
+# 검색기능
+# include 부분의 pages: false의 설정은 pages 레이아웃에 해당하는 일반 html페이지는 검색하지 않겠다는 것을 의미한다.(포스트 내용 검색에 집중하기 위함)
+# exclude 부분의 search.html, index.html, tags.html 페이지는 검색에서 제외하겠다는 것을 의미한다.
+tipue_search:
+  include:
+    pages: false
+    collections: []
+  exclude:
+    files: []
+    categories: []
+    tags: []
