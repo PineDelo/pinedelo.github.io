@@ -29,6 +29,10 @@
   white-space: nowrap; // whitespace 는 스페이스와 탭, 줄바꿈, 자동줄바꿈을 어떻게 처리할지 정하는 속성, nowrap :병합
 }
 
+.top-menu::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera*/
+}
+
 // for top-menu
 .top-menu.nav-btn {
   border: none;
@@ -37,7 +41,28 @@
   margin: 0 9px;
 }
 
-.top-menu a:hover {
-  color: black;
-  font-weight: 700;
+// .top-menu a:hover {
+//   color: black;
+//   font-weight: 700;
+// }
+
+.nav-span > form {
+  float: right;
+  margin-right: 20px;
+}
+
+// profile avatar image
+.content .avatar {
+  float: right !important; // 왼쪽으로 보낼지 오른쪽으로 보낼지
+  box-sizing: content-box;
+  border: 1rem solid var(--body-bg);
+  transition: border-color 1s ease;
+  margin-top: 5px !important;
+  margin-left: 5px !important;
+  width: 170px !important; // 이미지 크기
+  height: 170px !important;
+}
+.author-body-description {
+  margin-left: 20px !important; // 소개글 위치 정하기 200px
+  margin-top: 20px !important; // 20px
 }

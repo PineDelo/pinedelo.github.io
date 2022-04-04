@@ -3,15 +3,15 @@
 layout: list
 
 # The title of the tag's page.
-title: Dev.log
+title: English.log
 
 # The name of the tag, used in a post's front matter (e.g. tags: [<slug>]).
-slug: Dev.log
+slug: English
 menu: true
 submenu: true
 # (Optional) Write a short (~150 characters) description of this featured tag.
 description: >
-  Develop Blog Category
+  TIL English
 
 # (Optional) You can disable grouping posts by date.
 # no_groups: true
@@ -21,18 +21,4 @@ description: >
 sitemap: false
 ---
 
-# Dev.log
-
-## Categories
-
-- [JavaScript]{:.heading.flip-title}
-- [React.js]{:.heading.flip-title}
-- [Node.js]{:.heading.flip-title}
-- [Features]{:.heading.flip-title}
-- [Error_Cases]{:.heading.flip-title}
-
-[javascript]: /javascript/
-[react.js]: /react/
-[node.js]: /node/
-[features]: /features/
-[error_cases]: /errorcases/
+# English.log

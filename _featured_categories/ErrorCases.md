@@ -1,7 +1,7 @@
 ---
 layout: list
 category: dev
-bigtitle: Error-Cases
+title: Error-Cases
 slug: Error-Cases
 description: >
   Error Case Category

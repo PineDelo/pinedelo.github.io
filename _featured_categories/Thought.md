@@ -11,7 +11,7 @@ menu: true
 submenu: true
 # (Optional) Write a short (~150 characters) description of this featured tag.
 description: >
-  회고 및 개인적인 생각 등등
+  회고 및 개인적인 생각 등
 
 # (Optional) You can disable grouping posts by date.
 # no_groups: true

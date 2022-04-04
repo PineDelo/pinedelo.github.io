@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 데이터 타입에 관한 배경지식
-subtitle: background knowledge of data type
+subtitle: Background knowledge of data type
 # tags: 태그
 description: >
   코어자바스크립트를 참조하여 작성한 글입니다.

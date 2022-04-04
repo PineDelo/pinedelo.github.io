@@ -1,7 +1,7 @@
 ---
 layout: list
 category: dev
-bigtitle: Node
+title: Node.js
 slug: Node
 description: >
   Node Category

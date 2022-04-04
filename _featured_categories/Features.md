@@ -1,7 +1,7 @@
 ---
 layout: list
 category: dev
-bigtitle: Features
+title: Features
 slug: Features
 description: >
   Feature Category

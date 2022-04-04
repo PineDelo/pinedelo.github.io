@@ -1,7 +1,7 @@
 ---
 layout: list
 category: dev
-bigtitle: React
+title: React.js
 slug: React
 description: >
   React Category
