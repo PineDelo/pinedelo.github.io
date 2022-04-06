@@ -29,10 +29,12 @@ sitemap: false
 - [React.js]{:.heading.flip-title}
 - [Node.js]{:.heading.flip-title}
 - [Features]{:.heading.flip-title}
+- [Github]{:.heading.flip-title}
 - [Error_Cases]{:.heading.flip-title}
 
 [javascript]: /javascript/
 [react.js]: /react/
 [node.js]: /node/
 [features]: /features/
+[github]: /github/
 [error_cases]: /errorcases/

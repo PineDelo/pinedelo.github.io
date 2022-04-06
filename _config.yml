@@ -62,6 +62,8 @@ menu:
       - url: /node/
       - title: Features
       - url: /features/
+      - title: GitHub
+      - url: /github/
       - title: Error Cases
       - url: /errorcases/
   - title: English.log
